@@ -12,9 +12,14 @@ System.out.print(s[i]);
 }
 System.out.println("\n"+"Split():");
 
-String str1[]=a.split("e");
+String str1[]=a.split(" ");
 for(String w:str1){
 System.out.println(w.trim());
+}
+
+String b[]=a.split("1");
+for(String z:b){
+System.out.println(z.trim());
 }
 }
 }
